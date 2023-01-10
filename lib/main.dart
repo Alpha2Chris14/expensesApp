@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
     showModalBottomSheet(
         context: ctx,
         builder: (bctx) {
+          //this returns the new transaction modal
           return NewTransaction(_addNewTransaction);
         });
   }
